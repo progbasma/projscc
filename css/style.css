@@ -1,0 +1,93 @@
+body {
+  position: relative;
+}
+:root{
+    
+   --color1:#F4511E;
+    
+}
+
+
+.mynav{
+    
+   background-color: var(--color1)!important;
+    padding: 0rem 1rem !important;
+}
+.nav-item .active{
+        
+        color: var(--color1)!important;
+    background-color: white;
+
+    
+    
+}
+.nav-link{
+    
+    color: white!important;
+    letter-spacing: 0.25rem;
+    font-size: 95%;
+    padding: .5rem 0.7rem !important;
+
+}
+.nav-link:hover{
+     color: var(--color1)!important;
+    background-color: white;
+   
+}
+/******start jumbotron**************/
+.jumbotron
+{
+    background-color: var(--color1)!important;
+}
+
+.fas{
+   color: var(--color1);   
+ 
+    
+}
+.card{
+    border:1px solid var(--color1);
+}
+
+.card-header,.card .btn{
+    
+  background-color: var(--color1)!important;
+color:white;}
+.card .btn{
+    
+    border: 2px solid var(--color1);
+    
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    
+    background-image: none;
+    color:var(--color1);
+    
+}
+
+.carousel-indicators li{
+    background-color: white;
+    border:2px solid var(--color1);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    
+}
+.carousel-indicators .active{
+    background-color:  var(--color1); 
+}
+
+
+@media screen and (max-width:576px)
+{
+   p{
+        font-size: 95%!important;
+        
+    }
+    h2{
+        font-size: 2rem!important;
+        font-weight: 300;
+    }
+    
+}
